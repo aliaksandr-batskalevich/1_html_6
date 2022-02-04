@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    padding: 50px 50px;
+    background-color: #d9ddec;
+}
+
+.text {
+    text-align: center;
+}
+
+.text p {
+    font-size: 22px;
+    margin-top: 10px;
+}
