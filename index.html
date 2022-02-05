@@ -6,12 +6,61 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<form action="" method="">
+<form action="#" method="#">
     <div class="text">
         <h2>Пожалуйста, укажите Ваше имя и фамилию.</h2>
-        <p>Что облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии.</p>
+        <p>Что облегчить общение и поиск друзей, у нас приняты настоящие<br> имена и фамилии.</p>
     </div>
-
+    <div class="information">
+        <input type="text" name="Name" placeholder="Ваше имя" required>
+        <input type="text" name="Last name" placeholder="Ваша фамилия" required>
+        <div class="birthday">
+            <label> Дата рождения
+                <div class="cont">
+                    <div class="select-day">
+                        <select name="day" id="">
+                            <option value="no" selected>День</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                    <div class="select-month">
+                        <select name="month" id="">
+                            <option value="no" selected>Месяц</option>
+                            <option value="январь">январь</option>
+                            <option value="февраль">февраль</option>
+                            <option value="март">март</option>
+                            <option value="апрель">апрель</option>
+                            <option value="май">май</option>
+                            <option value="июнь">июнь</option>
+                        </select>
+                    </div>
+                    <div class="select-year">
+                        <select name="year" id="">
+                            <option> value="no" selected>Год</option>
+                            <option> value="1988">1988</option>
+                            <option> value="1989">1989</option>
+                            <option> value="1990">1990</option>
+                            <option> value="1991">1991</option>
+                            <option> value="1992">1992</option>
+                            <option> value="1993">1993</option>
+                        </select>
+                    </div>
+                </div>
+            </label>
+        </div>
+        <button class="registration" name="submit">
+            <p>Зарегистрироваться</p>
+        </button>
+        <p class="pse">или</p>
+        <a class="fb" href="#">
+                <p>Продолжить с Facebook</p>
+        </a>
+    </div>
 </form>
 </body>
 </html>

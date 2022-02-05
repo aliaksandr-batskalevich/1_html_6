@@ -2,13 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 
 form {
     width: 800px;
+    height: 100vh;
     margin: auto;
     padding: 50px 50px;
-    background-color: #d9ddec;
+    background-color: rgba(217, 221, 236, 0.47);
 }
 
 .text {
@@ -16,6 +18,112 @@ form {
 }
 
 .text p {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 10px;
+    line-height: 26px;
 }
+
+.information {
+    width: 400px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+input, select {
+    height: 40px;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: 20px;
+    border: rgba(145, 144, 144, 0.75) 1px solid;
+    border-radius: 3%;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+.birthday {
+    margin-top: 30px;
+}
+
+.birthday div {
+    display: inline-block;
+}
+
+.birthday label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #989797;
+    display: block;
+}
+
+.cont {
+    width: 100%;
+    text-align-last: justify;
+}
+
+select {
+    width: 100%;
+    color: #989797;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.select-day {
+    width: 28%;
+}
+
+.select-month {
+    width: 40%;
+}
+
+.select-year {
+    width: 28%;
+}
+
+.registration, .fb{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 3%;
+    display: block;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.registration{
+    background-color: #649364;
+}
+
+.pse {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #989797;
+}
+
+.pse::before, .pse::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 50px;
+    background-color: rgba(152, 151, 151, 0.75);
+    vertical-align: middle;
+    margin: 0 15px;
+}
+
+.fb {
+    background-color: #3b5998;
+    text-decoration: none;
+}
+
+.fb p{
+    line-height: 40px;
+    vertical-align: middle;
+}
+
