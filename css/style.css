@@ -63,11 +63,16 @@ input {
     text-align-last: justify;
 }
 
-select {
+.birthday select {
     width: 100%;
     color: #989797;
     font-weight: bold;
     letter-spacing: 1px;
+    appearance: none;
+}
+
+.cont div {
+    position: relative;
 }
 
 .select-day {
@@ -80,6 +85,14 @@ select {
 
 .select-year {
     width: 28%;
+}
+
+.arrow{
+    position: absolute;
+    right: 9px;
+    top: 30px;
+    height: 20px;
+    pointer-events: none;
 }
 
 .registration, .fb{
